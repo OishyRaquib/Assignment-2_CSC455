@@ -1,0 +1,61 @@
+.back{
+	background-color:  #add8e6;
+}
+
+.row{
+
+	column-gap: 1%;
+}
+#picture{
+	margin-left: 40%;
+	background-image: url('../img/background.jpg');
+	background-size: contain;
+	height: 700px;
+	width: 500px;
+	background-repeat: no-repeat;
+	border-color: whitesmoke;
+
+}
+
+.card-body:hover{
+	transform: scale(1.1);
+  	cursor: pointer;
+}
+.center-text{
+	padding: 20px;
+	margin: 20px;
+}
+
+#contact{
+	margin: 0 auto;
+
+}
+#talk-to{
+	min-width: 40%;
+	margin-left: 3%;
+	padding: 3%;
+}
+#talk-to:hover{
+	box-shadow: 10px 10px 10px whitesmoke;
+}
+input[type="submit"]{
+	background-color: #add8e6; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	/* display: inline-block; */
+	font-size: 16px;
+}
+input[type="submit"]:hover{
+	background-color: lightskyblue
+	
+}
+#last{
+	background-color:  #add8e6;
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
